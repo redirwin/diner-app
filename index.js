@@ -67,7 +67,11 @@ function renderMenu() {
 }
 
 function renderBill() {
-    document.getElementById('bill').innerHTML = getBillHtml()
+    if (billArray.length) {
+        document.getElementById('bill').innerHTML = getBillHtml()
+    } else {
+        document.getElementById('bill').innerHTML = ""
+    }
 }
 
 renderMenu();
