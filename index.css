@@ -1,3 +1,111 @@
-body {
+* {
+    box-sizing: border-box;
+}
+
+html, body {
     margin: 0;
+    padding: 0;
+    font-family: 'Smythe', cursive;
 } 
+
+/* TYPOGRAPHY */
+
+body {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+h1 {
+    font-size: 39px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+/* LAYOUT */
+
+body {
+    width: 600px;
+}
+
+header, main, footer {
+    width: 600px;
+    padding: 0 46px;
+}
+
+header {
+    padding: 46px 0 70px 46px;
+}
+
+header {
+    color: #fff;
+    background-image: url(/assets/burger-background.jpg);
+    background-position: -50px -160px;
+    background-size: 120%;
+    background-repeat: no-repeat;
+}
+
+.item-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 140px;
+    border-bottom: 1px solid #D2D2D2;
+    padding: 100px 0;
+}
+
+.item-emoji {
+    width: 100px;
+    height: 100px;
+    font-size: 78px;
+    opacity: 0.72;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-text-container {
+    margin-left: 25px;
+}
+
+.item-name {
+    font-size: 28px;
+}
+
+.item-ingredients {
+    padding: 10px 0;
+    color: #8B8B8B;
+    line-height: 24px;
+}
+
+.item-price {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.item-add {
+    border: 1.5px solid #DEDEDE;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;    
+}
+
+.item-add>p {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    line-height: 0;
+    color: #3C3C3C;
+    padding: 0;
+    margin: -3.4px 0 0;
+}
+
+.item-add:hover {
+    background-color: #16DB99;
+    cursor: pointer;
+}
