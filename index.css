@@ -27,11 +27,15 @@ h2 {
 /* LAYOUT */
 
 body {
-    width: 600px;
+    max-width: 600px;
+    min-height: 95vh;
+    margin: 0 auto 10px;
+    padding-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 header, main, footer {
-    width: 600px;
+    width: 100%;
     padding: 0 46px;
 }
 
@@ -93,16 +97,15 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: auto;    
-}
-
-.item-add>p {
+    margin-left: auto;  
     font-family: 'Inter', sans-serif;
     font-size: 32px;
-    line-height: 0;
     color: #3C3C3C;
-    padding: 0;
-    margin: -3.4px 0 0;
+}
+
+.item-add::before {
+    content: "+";
+    margin-top: -3.4px;
 }
 
 .item-add:hover {
