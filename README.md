@@ -1,6 +1,8 @@
 # Diner Ordering and Payment System
 
-I developed this app from scratch with plain JavaScript from a provided Figma design and instructor-provided requirements. It is not intended to be a full-fledged production project, but instead demonstrates a small subset of my abilities as a developer. 
+I developed this app from scratch with plain JavaScript from a Figma design and instructor requirements. It is not intended to be a full-fledged production project, but demonstrates a small subset of my abilities as a developer. 
+
+The live hosted site can be [found here](https://daves-diner.netlify.app/). 
 
 **Requirements were:**
 * Follow the [design spec](https://www.figma.com/file/iFFwsp3hRgXPTuorN8ZrzT/Mobile-Restaurant-Menu?node-id=0%3A1&t=RsJMe93UGVGuMfCZ-1)
