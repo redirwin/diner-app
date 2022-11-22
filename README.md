@@ -12,13 +12,9 @@ The live hosted site can be [found here](https://daves-diner.netlify.app/).
 
 **Major aspects of the app were:**
 * Render a menu of items provided in a data file
-* All users to add and remove items from their order list and track the order total
 * Render a modal with a form for submitting required order details
-* Render a thank you page after the form has been submitted
+* Render a thank you section after the form has been submitted
+* Functional programming approach utilizing arrays, forms, and conditionally rendered HTML elements
 
-**Additional functionality I added:**
-* I added a secondary function to check validity of user submitted form data
-* The modal resolves to a short submission SVG when the form is submitted
-
-Per the design specs, the viewport was assumed to be 600px wide and the app has only limited responsiveness.
+Per the design specs, the viewport was assumed to be 600px wide and the app has limited responsiveness.
 
