@@ -13,7 +13,7 @@ The live hosted site can be [found here](https://daves-diner.netlify.app/).
 
 **Major aspects of the app were:**
 
-- Render a menu of items provided from an array of objects in a seperate data file
+- Render a menu of items imported from an array of objects in a seperate data file
 - Render a modal with a form for submitting required payment details
 - Render a thank you section after the form has been submitted
 - Functional programming approach utilizing arrays, forms, and conditionally rendered HTML elements
