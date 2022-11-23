@@ -139,6 +139,7 @@ function renderOrderSubmitted(name) {
   document.getElementById("bill").innerHTML = `
         <p id="thanks">Thanks, ${name}! Your order is on its way!</p>
     `;
+  billArray.length = 0;
 }
 
 renderMenu();
